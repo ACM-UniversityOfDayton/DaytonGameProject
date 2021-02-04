@@ -1,0 +1,3 @@
+* Make a website and demo video by the end of this
+
+* License the game (GNU public license?)
