@@ -12,7 +12,7 @@ from cocos import scene
 
 
 
-img = pyglet.image.load("popo.png")
+img = pyglet.image.load("images/popo.png")
 
 
 
@@ -33,7 +33,7 @@ class Mover(cocos.actions.Move):
 
 class Car(cocos.sprite.Sprite):
     def __init__(self):
-        super().__init__("Audi.png", scale = .33)
+        super().__init__("images/Audi.png", scale = .33)
 
 
         self.position = 400, 360
